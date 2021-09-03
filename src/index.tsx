@@ -1,0 +1,12 @@
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import './index.css';
+import Home from './pages/Home/Home';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Home />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
